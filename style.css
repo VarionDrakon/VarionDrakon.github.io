@@ -1,0 +1,53 @@
+ @font-face{
+	src: local(AntiqueandroidRegularz), url(img/Fonts/AntiqueandroidRegularz.otf);
+	font-family: AntiqueandroidRegularz;
+}
+
+ body {
+    background-image: url(img/background.jpg);
+	background-attachment: fixed; 
+	font-size: 25px;
+   }
+
+h1{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+	text-shadow: white 0 0 2px;
+		color: Black;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 3px solid #000;
+}
+
+span{
+	color: white;
+	text-shadow: black 0 0 5px;
+}
+
+blockquote{
+	border: 3px solid #000;
+	text-shadow: white 0 0 5px;
+	color: Black;
+	background-image: url(img/background_code.jpg);
+	font-size: 25px;
+}
+
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 3px solid #000;
+}
+
+a{
+	border: 3px solid #151719;
+	color: #0a0a0a;
+}a:hover{
+	border: 3px solid #0a0a0a;
+	color: #151719;
+}
